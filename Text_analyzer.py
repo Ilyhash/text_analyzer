@@ -31,6 +31,6 @@ for i in new_pairs:
             findict[pairs[pairs.index(o) + 1]] = o
             pairs[pairs.index(o)] = 101
 
-
+print("Here're letters and the percentage that they make up from the text from high to low")
 for i in findict:
     print(i, '-', findict[i])
