@@ -19,7 +19,7 @@ for char in 'abcdefghijklmnopqrstuvwxyz':
 
 
 new_pairs = []
-for i in range(0, len(pairs) - 1, 2):
+for i in range(0, len(pairs), 2):
     new_pairs.append(pairs[i])
 new_pairs.sort(reverse = True)
 
